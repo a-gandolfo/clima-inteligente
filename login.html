@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css" media="screen ">
+</head>
+<body>
+    <main class="container">
+        <section class="img">
+            <img src="imagens/pexels-konstantin-olsen-287263.jpg" alt="">
+        </section>
+        <section class="container-principal">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            <section class="container-form">
+                <form id="form" action="" method="post">
+                    
+                    <div class="container-inputs">
+                        <label for="i-email"><img src="imagens/person_FILL0_wght400_GRAD0_opsz48.svg" alt=""></label>
+                        <input type="email" name="" id="input-email" placeholder="seu e-mail" required maxlength="40">
+                        
+                    </div>
+                    <div class="container-inputs">
+                        <label for="i-password"><img src="imagens/key_FILL0_wght400_GRAD0_opsz48.svg" alt=""></label>
+                        <input type="password" name="" id="input-senha" placeholder="sua senha" minlength="8" required maxlength="50">
+                    </div>
+
+                    <div class="container-buttons">
+                        <input id="input-logar" class="entrar" type="submit" value="Entrar">
+                        <div class="cartinha">
+                                <a href="">Esqueci a Senha</a>
+                                <img src="imagens/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
